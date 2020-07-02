@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+	  <h:head>
+	  </h:head>
+	  
+	  <h:body>
+	  	  <h:panelGrid colums = "2">
+		  
+		  <h:outputLabel value="El nombre del usuario es: ">
+		  <h:outputText value='#{persona.nombre}'></h:outputText>
+		  </h:outputLabel>
+		  
+		  <h:outputLabel value="La edad del usuario es: ">
+		  <h:outputText value='#{persona.edad}'></h:outputText>
+		  </h:outputLabel>
+		  
+		  
+		  <h:outputLabel value="La direccion del usuario es: ">
+		  <h:outputText value='#{persona.direccion}'></h:outputText>
+		  </h:outputLabel>
+		  
+		  
+		   <h:outputLabel value="El correo del usuario es: ">
+		  <h:outputText value='#{persona.correo}'></h:outputText>
+		  </h:outputLabel>
+		  
+		   <h:outputLabel value="El telefono del usuario es: ">
+		  <h:outputText value='#{persona.telefono}'></h:outputText>
+		  </h:outputLabel>
+		  
+		   <h:outputLabel value="El estado civil del usuario es: ">
+		  <h:outputText value='#{persona.estadoCivil}'></h:outputText>
+		  </h:outputLabel>
+
+		  
+		  </h:panelGrid>
+	  </h:body>
+</html>
